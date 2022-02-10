@@ -2,7 +2,7 @@
 
 ---
 
-# Team Work:
+# Team Work
 
 | Name | Section | Bench |
 | ----------- | ----------- | ----------- |
@@ -17,7 +17,7 @@
 
 | Requiered Part | Title |
 | ----------- | ----------- |
-| [GUI](#part-0) | Graphical User Interface - GUI |
+| [#Part 0](#part-0) | Graphical User Interface - GUI |
 | [#Part 1](#part-1) | Add additive noise to the image |
 | [#Part 2](#part-2) | Filter the noisy image |
 | [#Part 3](#part-3) | Detect edges in the image |
@@ -35,8 +35,7 @@
 
 ## Graphical User Interface - GUI
 
-
-We display all the requirments in one window 
+We display all the requirments in one window
 using the GUI you can change some parameters like:
 
     1. type of the filter
@@ -52,49 +51,76 @@ using the GUI you can change some parameters like:
 ## Add additive noise to the image
 
 We add three different type of noise :
+
 * Uniform
 * Guassian
 * Salt & Pepper
 
 You can change between them using combo box and change the amount of noise using slider
+
 ### Uniform
+
 ![Uniform Noise](Screenshots/uniform.png)
+
 ### Guassian
+
 ![Gaussian Noise](Screenshots/guassian.png)
+
 ### Salt & Pepper
+
 ![Salt & Pepper Noise](Screenshots/salt_pepper.png)
 ---
 
-
 # Part 2
 
-## Filter the noisy image using the following low pass filters:
-in this section we use function "avgFilter" to manipulate the noisy image with a specific filter we choose and the result is ... 
+## Filter the noisy image using the following low pass filters
+
+in this section we use function "avgFilter" to manipulate the noisy image with a specific filter we choose and the result is ...
+
 ## - original image
+
 ![original of Image](Screenshots/org.png)
+
 ## - Average filter
+
 ![Average filter](Screenshots/avg.png)
+
 ## - Gaussian filter
+
 ![Gaussian filter](Screenshots/gas.png)
+
 ## - Salt & papper pic
+
 ![Salt & papper pic](Screenshots/salt&papper.png)
+
 ## - median filters
+
 ![median filters](Screenshots/medain.png)
 
 ---
 
 # Part 3
 
-## Detect edges in the image using the following masks:
+## Detect edges in the image using the following masks
+
 ## - Sobel , Roberts , Prewitt and Canny edge detectors
-in this section we use function "edgFilters" to manipulate the image with a specific filter we choose and the result is ... 
+
+in this section we use function "edgFilters" to manipulate the image with a specific filter we choose and the result is ...
+
 ## - original pic
+
 ![original pic](Screenshots/org.png)
+
 ## - Sobel filter
+
 ![Sobel filter](Screenshots/sobal.png)
+
 ## - Roberts pic
+
 ![Roberts pic](Screenshots/roberts.png)
+
 ## - Prewitt filters
+
 ![Prewitt filters](Screenshots/prewitt.png)
 
 ---
@@ -145,7 +171,7 @@ We got the following image...
 
 Global Thresholding: We implemented the global function where it iterates over all the image's pixels and assign it to a new value where it becomes 255 or 0 according to whether or not it's greater than a given threshold provided by the user.
 ![Global_thresh_img](Screenshots/Global.png)
-Local Thresholding: We implemented the local function to work as it divides the image to many smaller windows where their size is selected by the user, the mean is calculated to the selected window and then is used as the threshold value to this window by applying the same technique used in the global function, the user have the option to choose if a constant is needed to be subtracted from the mean before applying it to the window. 
+Local Thresholding: We implemented the local function to work as it divides the image to many smaller windows where their size is selected by the user, the mean is calculated to the selected window and then is used as the threshold value to this window by applying the same technique used in the global function, the user have the option to choose if a constant is needed to be subtracted from the mean before applying it to the window.
 ![Local_thresh_img](Screenshots/Local.png)
 
 ---
@@ -164,12 +190,19 @@ Where its histogram is displayed as follows
 # Part 9
 
 ## Frequency domain filters (high pass and low pass)
-in this section we use function "freqFilters" to manipulate the image with a LPS or HPS in the frequency domain and get the pic back and the result is ... 
+
+in this section we use function "freqFilters" to manipulate the image with a LPS or HPS in the frequency domain and get the pic back and the result is ...
+
 ## - original pic
+
 ![original pic](Screenshots/org.png)
+
 ## - low pass filter
+
 ![Sobel filter](Screenshots/LPF.png)
+
 ## - Roberts pic
+
 ![Roberts pic](Screenshots/HPF.png)
 
 ---
