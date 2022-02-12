@@ -50,28 +50,28 @@ The objective of this project is to highlight the importance of linear algebra i
 
 two classes of the data set we use.
 
-![TwoClasses](screenshots/TwoClasses.PNG)
+![TwoClasses](screenshots/TwoClasses.png)
 
 Mean image.
 
-![TwoClasses](screenshots/MeanImage.PNG)
+![TwoClasses](screenshots/MeanImage.png)
 
 Each image when subtracted with the mean image.
 
-![TwoClasses](screenshots/submean.PNG)
+![TwoClasses](screenshots/submean.png)
 
 Each image represented with q eigenvectors.
 
-![TwoClasses](screenshots/egienValSub.PNG)
+![TwoClasses](screenshots/egienValSub.png)
 
 then as we said in the algorithm when enter a new image. we subtracr it from the mean image given us the x image, and compare the result with a choosen threshold. if the result is lower than the threshold, the image face is detected.
 
 So, the image we use as input is ...
-![TwoClasses](screenshots/input.PNG)
+![TwoClasses](screenshots/input.png)
 
 each image is represented using eigenvectors. So, Each image is then subtracted with x. If the difference is lower than a chosen threshold, the new image face is classified to a class.
 
 the output image from the data set is ...
-![TwoClasses](screenshots/output.PNG)
+![TwoClasses](screenshots/output.png)
 
 ---
