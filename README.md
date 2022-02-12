@@ -1,14 +1,19 @@
 # Computer Vision Course - SBME
 
-### This reopsitory contains all of our work and projects that regards the Computer Vision field, and how we were able to use it's main concepts as
+### This reopsitory contains all of our work and projects that regards the Computer Vision field, and how we were able to use it's main concepts.
+~~~
+For Further details on a certain topic, check out the ReadMe file of each task by clicking on it's hyperlink.
+~~~
+
+
 
 | Requiered Part | Title |
 | ----------- | ----------- |
-| [Project 1](#project-1) | Editing and applying filters on an image |
-| [Project 2](#project-2) | Edge detections |
-| [Project 3](#project-3) | Haris and SIFT operators |
-| [Project 4](#project-4) | Thresholding |
-| [Project 5](link) | Faces Recognition|
+| [Project 1](https://github.com/Almotasem100/Computer-Vision/tree/main/Task1) | Editing and applying filters on an image |
+| [Project 2](https://github.com/Almotasem100/Computer-Vision/tree/main/Task2) | Edge detections |
+| [Project 3](https://github.com/Almotasem100/Computer-Vision/tree/main/Task3) | Haris and SIFT operators |
+| [Project 4](https://github.com/Almotasem100/Computer-Vision/tree/main/Task4) | Thresholding |
+| [Project 5](https://github.com/Almotasem100/Computer-Vision/tree/main/Task5) | Faces Recognition|
 ---
 
 # Team Members
@@ -67,6 +72,3 @@
 
 ---
 
-### For Further details on a certain topic, check out the ReadMe file of each task
-
----

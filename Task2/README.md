@@ -1,18 +1,6 @@
-# Computer Vision Course - Group Task #2
+# Computer Vision Course - Project #2
 
 ---
-
-# Team Work:
-
-| Name | Section | Bench |
-| ----------- | ----------- | ----------- |
-| Ahmed Adel | 1 | 6 |
-| Remon Albear | 1 | 33 |
-| Abdulla Zahran | 2 | 4 |
-| Mohammed Almotasem | 2 | 19 |
-
----
-
 # Table of Content
 
 | Requiered Part | Title |
@@ -47,8 +35,8 @@ The Canny edge detector is an edge detection operator that uses a multi-stage al
 ##### 5. Edge Tracking by hysteresis.
    Based on the threshold results, the hysteresis consists of transforming weak pixels into strong ones, if and only if at least one of the pixels around the one being processed is a strong one,
 
-![Input_img](ScreenShots/CannyInput.jpg)
-![Output_img](ScreenShots/CannyOutput.png)
+![Input_img](CannyInput.jpg)
+![Output_img](CannyOutput.png)
 ---
 
 
@@ -65,22 +53,22 @@ There are some parameters you can change it to adapt to your image like
 ### example 1
 here is the input image
 
-![Lines Input 1](ScreenShots/linesInput.jpg)
+![Lines Input 1](linesInput.jpg)
 
 We detect the top 25 line with length 200 pixel by using 180 angle and 180 rho 
 here is the output
 
-![Lines Output 1](ScreenShots/linesOutput.jpg)
+![Lines Output 1](linesOutput.jpg)
 
 ### example 2
 here is the input image
 
-![Lines Input 2](ScreenShots/linesInput2.jpg)
+![Lines Input 2](linesInput2.jpg)
 
 We detect the top 50 line with length 200 pixel by using 180 angle and 180 rho 
 here is the output
 
-![Lines Output 2](ScreenShots/linesOutput2.jpg)
+![Lines Output 2](linesOutput2.jpg)
 
 ---
 
@@ -99,24 +87,24 @@ There are some parameters you can change it to adapt to your image like
 ### example 1
 here is the input image
 
-![Circles Input 1](ScreenShots/CirclesInput.jpg)
+![Circles Input 1](CirclesInput.jpg)
 
 The parameters was minimum radius of 30 and maximum of 200 with step of 1 and 360 angles with step of 1 
 
 here is the output
 
-![Circles Output 1](ScreenShots/CirclesOutput.jpg)
+![Circles Output 1](CirclesOutput.jpg)
 
 ### example 2
 here is the input image
 
-![Circles Input 2](ScreenShots/CirclesInput2.jpg)
+![Circles Input 2](CirclesInput2.jpg)
 
 The parameters was minimum radius of 15 and maximum of 200 with step of 1 and 360 angles with step of 1 
 
 here is the output
 
-![Circles Output 2](ScreenShots/CirclesOutput2.jpg)
+![Circles Output 2](CirclesOutput2.jpg)
 ---
 
 # Part 4
@@ -125,8 +113,8 @@ here is the output
 
 this is the original image that we want to detect the boundaries of it.
 
-![GUI](ScreenShots/snakeImageInput.png)
+![GUI](snakeImageInput.png)
 
 Starting with initial guess for the boundary points, then shift the points around until they reach to the local minimum of the energy function.
 
-![GUI](ScreenShots/snakeImageOutput.png)
+![GUI](snakeImageOutput.png)
