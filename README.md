@@ -1,6 +1,7 @@
 # Computer Vision Course - SBME
 
-### This reopsitory contains all of our work and projects that regards the Computer Vision field, and how we were able to use it's main concepts.
+### During our Computer Vision course (SBE404) we were able to learn the concepts and apply them on real data to be practically able to use them forward.
+### Here are the main results of the several projects we implemented.
 ~~~
 For Further details on a certain topic, check out the ReadMe file of each task by clicking on it's hyperlink.
 ~~~
